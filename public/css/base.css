@@ -1,0 +1,34 @@
+body {
+    background-color: #ecf0f1;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#bCard {
+    max-width: 50%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 5px rgba(0,0,0,0.1);
+}
+
+.quote {
+    font-weight: 200; 
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+img {
+	border-radius: 100%;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #ecf0f1;
+	width: 50%;
+	max-width: 150px;
+}
+
+a, a:visited {
+    color: #ECF0F1;
+}
+
+a:hover {
+    color: #2980b9;
+}
