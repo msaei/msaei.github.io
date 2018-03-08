@@ -1,64 +1,309 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title> Mahdi Saeikhalili </title>
-	<script src="https://use.fontawesome.com/8cbd727842.js"></script>
-        <link rel="stylesheet" href="css/style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="js/script.js"></script>
-    </head>
-    <body>
-        <!-- Build your site content here -->
+<html>
 
-        <div id="resume">
-        	<h1>Mahdi Saeikhalili</h1>
-        	<img src="images/me.jpg" alt="Mahdi Saeikhalili face">
-        	<p>&#60;<span class="pink">cel</span>&#62; (203)446-6750 &#60;&#47;<span class="pink">cel</span>&#62;</p>
-        	<p>&#60;<span class="pink">email</span>&#62; mahdi.saeikhalili@gmail.com &#60;&#47;<span class="pink">email</span>&#62;</p>
-        	<p>&#60;<span class="pink">github</span>&#62; https://github.com/msaei &#60;&#47;<span class="pink">github</span>&#62;</p>
-        	<p>&#60;<span class="pink">summary</span>&#62;: I am HCC student majoring in Computer Information Systems with a strong interest in an internship and prior work experience in programming, web design and database management.&#60;&#47;<span class="pink">summary</span>&#62;</p>
+<head>
+    <title>Mahdi's Resume</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
 
+</head>
 
-        	<h2 class="education"><i class="fa fa-graduation-cap fa-3x"  aria-hidden="true"></i> Education:</h2>
-			<div class="education">
-				<h3>Housatonic Community College</h3>
-        			<p>Bridgeport, CT (2015-present)</p>
-        			<p>A.S. Degree candidate (Major: Computer Information Systems)</p>
-			</div>
-        			
+<body data-spy="scroll">
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+            <div class="container-fluid" id="nav">
 
-        	<h2 class="skills"><i class="fa fa-wrench fa-3x"  aria-hidden="true"></i> Technical Skills:</h2>
-			<div class="skills">
-        			<ul>
-        				<li>VB, Python</li>
-        				<li>MySQL, Access</li>
-        				<li>Html, CSS</li>
-        				<li>PHP, JavaScript</li>
-        			</ul>
-			</div>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					    	<span class="sr-only">Toggle navigation</span>
+					   	 	<span class="icon-bar"></span>
+					    	<span class="icon-bar"></span>
+					    	<span class="icon-bar"></span>
+					    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#edu">Education<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li>
+                            <a href="#work">Experience</a>
+                        </li>
+                        <li>
+                            <a href="#tech">Sample Works</a>
+                        </li>
+                        <li>
+                            <a href="#honors">Awards</a>
+                        </li>
+                        <li>
+                            <a href="#skills">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contacts</a>
+                        </li>
 
 
-        	<h2 class="experience"><i class="fa fa-history fa-3x"  aria-hidden="true"></i> Work Experiences:</h2>
-			<div class="experience">
-        			<h3>Walmart</h3>
-        			<p>Shelton, CT (2015-present)</p>
-        			<p>Sales Associate: Provide assistance to shoppers with purchase selections and ring up sales.</p>
-        			<br>
-        			<h3>Taban Web Co.</h3>
-        			<p>Tehran, Iran (2010-2012)</p>
-        			<p>Web Designer: Designed and administered websites for small companies using Joomla, HTML, CSS and PHP</p>
-        			<br>
-        			<h3>TM Solar Energy System Co.</h3>
-        			<p>Tehran, Iran (2008-2010)</p>
-        			<p>Microcontroller Programmer: Designed simple circuits for solar systems and programmed 8051 Microcontrollers using Assembly language</p>
-        			<br>
-        			<h3>Jooya Co.</h3>
-        			<p>Tehran, Iran (2007-2008)</p>
-        			<p>Programer: Coded, tested and debugged programs using VB.net, MSSQL and Crystal Reports.</p>
-			</div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="parallax-window" data-parallax="scroll" data-image-src="images/code.png" id="head-window">
+        <div class="col-sm-6" id="name-div">
+            <h1>Mahdi Saeikhalili</h1>
         </div>
+    </div>
 
-    </body>
+    <p class="img-source">
+        <a href="https://www.pexels.com/photo/close-up-of-computer-keyboard-248515/" target="_blank">Image source</a>
+    </p>
+
+    <!--Education-->
+    <div class="container-fluid">
+        <div class="row" id="edu">
+            <div class="col-sm-3">
+                <h3>Education</h3>
+            </div>
+            <div class="col-sm-9">
+                <p>Housatonic Community College, Bridgeport, CT<br>Expected graduation: May 2018<br><br>A.S. in Computer Information Systems<br>GPA: 3.9/4.0</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Employment-->
+    <div class="container-fluid">
+        <div class="row" id="work">
+            <div class="col-sm-3">
+                <h3>Employment</h3>
+            </div>
+            <div class="col-sm-9">
+                <div class="row">
+                    <div class="col-sm-4">
+                        Apprentice
+                    </div>
+                    <div class="col-sm-5">
+                        Checkmate Digital, Hamden, CT
+                    </div>
+                    <div class="col-sm-3">
+                        Summer 2017
+                    </div>
+                </div>
+                <div class="row">
+                    <ul>
+                        <li>Completed a 12-week apprenticeship on developing web applications using the Angular in frontend and Google Firebase in backend and Git for version controlling.</li>
+                        <li>Developed web applications including a Chat application and an online game.</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        Apprentice
+                    </div>
+                    <div class="col-sm-5">
+                        A100 Program
+                    </div>
+                    <div class="col-sm-3">
+                        Summer 2016
+                    </div>
+                </div>
+                <div class="row">
+                    <ul>
+                        <li>Built a software application in Meteor’s full-stack JavaScript platform in an Agile team, completing and deploying a working software application for a local startup venture, Thrivio.</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        Sales Associate
+                    </div>
+                    <div class="col-sm-5">
+                        Walmart, Shelton, CT
+                    </div>
+                    <div class="col-sm-3">
+                        2015 - Present
+                    </div>
+                </div>
+                <div class="row">
+                    <ul>
+                        <li>Provide assistance to shoppers with purchase selections and ring up sales.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+    <div class="parallax-window small-window" data-parallax="scroll" data-image-src="images/desk.jpeg">
+    </div>
+
+    <p class="img-source">
+        <a href="https://www.pexels.com/photo/apple-device-beverage-black-coffee-cafe-551993/" target="_blank">Image source</a>
+    </p>
+
+    <!--Technical Experience-->
+    <div class="container-fluid">
+        <div class="row" id="tech">
+            <div class="col-sm-3">
+                <h3>Work Samples</h3>
+            </div>
+            <div class="col-sm-9">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="https://chat-app-t1.firebaseapp.com/" target="_blank">chat app.</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <ul>
+                        <li>A simple chat application. Using Angular for front end and Firebase for backend. developed during my internship in Checkmate Digital.</li>
+                        <li>Languages and technology: Angular and Firebase.</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="https://mytwitter-9b1c2.firebaseapp.com/posts" target="_blank">twitter app.</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <ul>
+                        <li>A Twitter like application. Using Angular for front end and Firebase for backend. developed during my internship in Checkmate Digital.</li>
+                        <li>Languages and technology: Angular and Firebase.</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="https://msaei.github.io/backgammon/" target="_blank">backgammon board.</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <ul>
+                        <li>A backgammon board developed using jquery ui library for drag and drop. I developed it when I had webdesign course and I was learning PHP and jquery.</li>
+                        <li>Languages and technology: jquery UI.</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="http://m3hd1.com/getdice.php" target="_blank">getdice RESTfull api.</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <ul>
+                        <li>A RESTfull simple api which gave random dice. I used this service in my backgammon board project. I developed it when I had webdesign course and I was learning PHP and jquery.</li>
+                        <li>Languages and technology: PHP. RESTfull api.</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="https://msaei.github.io/master-mind/" target="_blank">master-mind board game.</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <ul>
+                        <li>A simple boardgame developed using jquery.</li>
+                        <li>Languages and technology: jquery.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Awards-->
+    <div class="container-fluid">
+        <div class="row" id="honors">
+            <div class="col-sm-3">
+                <h3>Awards</h3>
+            </div>
+            <div class="col-sm-9">
+                <div class="row award">
+                    <div class="col-sm-12">
+                        Competed in the CT Skills Challenge 2016, and was a member of the five persons team which was awarded 2nd place out of ten in the finals of this statewide programming contest. <a href="http://www.housatonic.edu/about-us/campus-news/press-releases/932-housatonic-community-college-student-2nd-place-winner-in-connecticut-skills-challenge"
+                            target="_blank"> link to the details about this contest.</a>
+                    </div>
+                </div>
+                <div class="row award">
+                    <div class="col-sm-12">
+                        Dean’s List every semester.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Skills-->
+    <div class="container-fluid">
+        <div class="row" id="skills">
+            <div class="col-sm-3">
+                <h3>Skills</h3>
+            </div>
+            <div class="col-sm-9">
+                <!--Java logo and JS logo source: https://www.iconfinder.com/iconsets/scripting-and-programming-languages-->
+                <div class="icon-row">
+
+                    <div class="col-xs-2">
+                        <i class="fab fa-html5 fa-4x" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-xs-2">
+                        <i class="fab fa-js fa-4x" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-xs-2">
+                        <i class="fab fa-css3-alt fa-4x" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-xs-2">
+                        <i class="fab fa-git-square fa-4x" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-xs-2">
+                        <i class="fab fa-angular fa-4x" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-xs-2">
+                        <i class="fab fa-python fa-4x" aria-hidden="true"></i>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Awards-->
+    <div class="container-fluid">
+        <div class="row" id="contact">
+            <hr>
+            <div class="col-sm-6 col-sm-offset-3">
+                <p> <i class="fas fa-phone fa-2x" aria-hidden="true"></i> (203)446-6750 </p>
+                <p> <i class="far fa-envelope fa-2x" aria-hidden="true"></i> <a href="mailto:mahdi.saeikhalili@gmail.com">mahdi.saeikhalili@gmail.com </a></p>
+                <p> <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i><a href="https://twitter.com/mehdisaeik"> twitter.com/mehdisaeik </a></p>
+                <p> <i class="fab fa-github-square fa-2x" aria-hidden="true"></i><a href="https://github.com/msaei"> github.com/msaei </a></p>
+                <p> <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i><a href="https://www.linkedin.com/in/mahdi-saeikahlili-926b53126/"> linkedin.com/in/mahdi-saeikahlili-926b53126/ </a></p>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <!--Used from http://pixelcog.github.io/parallax.js/-->
+    <script src="parallax.js-1.4.2/parallax.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script src="js/app.js"></script>
+
+</body>
+
 </html>
